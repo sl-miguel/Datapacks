@@ -9,7 +9,7 @@
   "variants": [],
   "name": "entity.cataclysm.ancient_remnant",
   "name_color": "#FFA500",
-  "gui_scale": 0.8,
+  "gui_scale": 0.4,
   "gui_x_offset": 0,
   "gui_y_offset": 0,
   "gui_z_offset": 0,

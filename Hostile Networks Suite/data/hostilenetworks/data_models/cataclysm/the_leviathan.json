@@ -9,9 +9,9 @@
   "variants": [],
   "name": "entity.cataclysm.the_leviathan",
   "name_color": "#FFA500",
-  "gui_scale": 1,
+  "gui_scale": 0.2,
   "gui_x_offset": 0,
-  "gui_y_offset": 0,
+  "gui_y_offset": 2,
   "gui_z_offset": 0,
   "sim_cost": 8192,
   "input": {

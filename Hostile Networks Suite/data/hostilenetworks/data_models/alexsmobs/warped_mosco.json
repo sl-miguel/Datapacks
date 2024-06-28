@@ -9,7 +9,7 @@
   "variants": [],
   "name": "entity.alexsmobs.warped_mosco",
   "name_color": "#800080",
-  "gui_scale": 1,
+  "gui_scale": 0.7,
   "gui_x_offset": 0,
   "gui_y_offset": 0,
   "gui_z_offset": 0,
@@ -31,16 +31,6 @@
       "count": 5
     }
   ],
-  "tier_data": [
-    4,
-    30,
-    100,
-    219
-  ],
-  "data_per_kill": [
-    1,
-    2,
-    3,
-    4
-  ]
+  "tier_data": [4, 30, 100, 219],
+  "data_per_kill": [1, 2, 3, 4]
 }
