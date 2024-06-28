@@ -23,6 +23,10 @@
   "trivia": "hostilenetworks.trivia.book_wyrm",
   "fabricator_drops": [
     {
+      "item": "minecraft:lapis_lazuli",
+      "count": 3
+    },
+    {
       "item": "bookwyrms:book_wyrm_raw",
       "count": 2
     },
@@ -55,16 +59,6 @@
       "count": 1
     }
   ],
-  "tier_data": [
-    6,
-    51,
-    174,
-    372
-  ],
-  "data_per_kill": [
-    1,
-    2,
-    3,
-    4
-  ]
+  "tier_data": [6, 51, 174, 372],
+  "data_per_kill": [1, 2, 3, 4]
 }
