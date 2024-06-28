@@ -1,0 +1,58 @@
+{
+  "conditions": [
+    {
+      "modid": "born_in_chaos_v1",
+      "type": "forge:mod_loaded"
+    }
+  ],
+  "entity": "born_in_chaos_v1:zombie_clown",
+  "variants": [],
+  "name": "entity.born_in_chaos_v1.zombie_clown",
+  "name_color": "#4EC513",
+  "gui_scale": 1,
+  "gui_x_offset": 0,
+  "gui_y_offset": 0,
+  "gui_z_offset": 0,
+  "sim_cost": 512,
+  "input": {
+    "item": "hostilenetworks:prediction_matrix"
+  },
+  "base_drop": {
+    "item": "hostilenetworks:overworld_prediction"
+  },
+  "trivia": "hostilenetworks.trivia.zombie_clown",
+  "fabricator_drops": [
+    {
+      "item": "minecraft:rotten_flesh",
+      "count": 4
+    },
+    {
+      "item": "born_in_chaos_v1:intoxicating_decoction",
+      "count": 2
+    },
+    {
+      "item": "born_in_chaos_v1:intoxicating_dagger",
+      "count": 1
+    },
+    {
+      "item": "minecraft:poisonous_potato",
+      "count": 1
+    },
+    {
+      "item": "born_in_chaos_v1:stimulating_decoction",
+      "count": 2
+    }
+  ],
+  "tier_data": [
+    6,
+    51,
+    174,
+    372
+  ],
+  "data_per_kill": [
+    1,
+    2,
+    3,
+    4
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "conditions": [
+    {
+      "modid": "alexscaves",
+      "type": "forge:mod_loaded"
+    }
+  ],
+  "entity": "alexscaves:tremorzilla",
+  "variants": [],
+  "name": "entity.alexscaves.tremorzilla",
+  "name_color": "#FFD700",
+  "gui_scale": 1,
+  "gui_x_offset": 0,
+  "gui_y_offset": 0,
+  "gui_z_offset": 0,
+  "sim_cost": 4096,
+  "input": {
+    "item": "hostilenetworks:prediction_matrix"
+  },
+  "base_drop": {
+    "item": "hostilenetworks:overworld_prediction"
+  },
+  "trivia": "hostilenetworks.trivia.tremorzilla",
+  "fabricator_drops": [
+    {
+      "item": "alexscaves:uranium",
+      "count": 40
+    },
+    {
+      "item": "alexscaves:uranium_shard",
+      "count": 20
+    }
+  ],
+  "tier_data": [
+    3,
+    21,
+    66,
+    153
+  ],
+  "data_per_kill": [
+    1,
+    2,
+    3,
+    4
+  ]
+}

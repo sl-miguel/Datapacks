@@ -1,0 +1,46 @@
+{
+  "conditions": [
+    {
+      "modid": "endermanoverhaul",
+      "type": "forge:mod_loaded"
+    }
+  ],
+  "entity": "endermanoverhaul:nether_wastes_enderman",
+  "variants": [],
+  "name": "entity.endermanoverhaul.nether_wastes_enderman",
+  "name_color": "#808080",
+  "gui_scale": 1,
+  "gui_x_offset": 0,
+  "gui_y_offset": 0,
+  "gui_z_offset": 0,
+  "sim_cost": 256,
+  "input": {
+    "item": "hostilenetworks:prediction_matrix"
+  },
+  "base_drop": {
+    "item": "hostilenetworks:nether_prediction"
+  },
+  "trivia": "hostilenetworks.trivia.nether_wastes_enderman",
+  "fabricator_drops": [
+    {
+      "item": "minecraft:ender_pearl",
+      "count": 1
+    },
+    {
+      "item": "minecraft:bone",
+      "count": 3
+    }
+  ],
+  "tier_data": [
+    7,
+    63,
+    214,
+    450
+  ],
+  "data_per_kill": [
+    1,
+    2,
+    3,
+    4
+  ]
+}

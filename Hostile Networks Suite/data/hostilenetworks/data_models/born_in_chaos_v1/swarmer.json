@@ -1,0 +1,50 @@
+{
+  "conditions": [
+    {
+      "modid": "born_in_chaos_v1",
+      "type": "forge:mod_loaded"
+    }
+  ],
+  "entity": "born_in_chaos_v1:swarmer",
+  "variants": [],
+  "name": "entity.born_in_chaos_v1.swarmer",
+  "name_color": "#4EC513",
+  "gui_scale": 1,
+  "gui_x_offset": 0,
+  "gui_y_offset": 0,
+  "gui_z_offset": 0,
+  "sim_cost": 512,
+  "input": {
+    "item": "hostilenetworks:prediction_matrix"
+  },
+  "base_drop": {
+    "item": "hostilenetworks:overworld_prediction"
+  },
+  "trivia": "hostilenetworks.trivia.swarmer",
+  "fabricator_drops": [
+    {
+      "item": "minecraft:rotten_flesh",
+      "count": 3
+    },
+    {
+      "item": "born_in_chaos_v1:corpse_maggot",
+      "count": 3
+    },
+    {
+      "item": "minecraft:slime_ball",
+      "count": 2
+    }
+  ],
+  "tier_data": [
+    6,
+    51,
+    174,
+    372
+  ],
+  "data_per_kill": [
+    1,
+    2,
+    3,
+    4
+  ]
+}

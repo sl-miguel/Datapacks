@@ -1,0 +1,102 @@
+{
+  "conditions": [
+    {
+      "modid": "iceandfire",
+      "type": "forge:mod_loaded"
+    }
+  ],
+  "entity": "iceandfire:lightning_dragon",
+  "variants": [],
+  "name": "entity.iceandfire.lightning_dragon",
+  "name_color": "#800080",
+  "gui_scale": 1,
+  "gui_x_offset": 0,
+  "gui_y_offset": 0,
+  "gui_z_offset": 0,
+  "sim_cost": 2048,
+  "input": {
+    "item": "hostilenetworks:prediction_matrix"
+  },
+  "base_drop": {
+    "item": "hostilenetworks:overworld_prediction"
+  },
+  "trivia": "hostilenetworks.trivia.lightning_dragon",
+  "fabricator_drops": [
+    {
+      "item": "iceandfire:lightning_dragon_flesh",
+      "count": 5
+    },
+    {
+      "item": "iceandfire:lightning_dragon_heart",
+      "count": 1
+    },
+    {
+      "item": "iceandfire:lightning_dragon_blood",
+      "count": 3
+    },
+    {
+      "item": "iceandfire:dragonbone",
+      "count": 10
+    },
+    {
+      "item": "iceandfire:dragonscales_red",
+      "count": 10
+    },
+    {
+      "item": "iceandfire:dragonscales_green",
+      "count": 10
+    },
+    {
+      "item": "iceandfire:dragonscales_bronze",
+      "count": 10
+    },
+    {
+      "item": "iceandfire:dragonscales_gray",
+      "count": 10
+    },
+    {
+      "item": "iceandfire:dragonscales_blue",
+      "count": 10
+    },
+    {
+      "item": "iceandfire:dragonscales_white",
+      "count": 10
+    },
+    {
+      "item": "iceandfire:dragonscales_sapphire",
+      "count": 10
+    },
+    {
+      "item": "iceandfire:dragonscales_silver",
+      "count": 10
+    },
+    {
+      "item": "iceandfire:dragonscales_electric",
+      "count": 10
+    },
+    {
+      "item": "iceandfire:dragonscales_amythest",
+      "count": 10
+    },
+    {
+      "item": "iceandfire:dragonscales_copper",
+      "count": 10
+    },
+    {
+      "item": "iceandfire:dragonscales_black",
+      "count": 10
+    }
+  ],
+  "tier_data": [
+    4,
+    30,
+    100,
+    219
+  ],
+  "data_per_kill": [
+    1,
+    2,
+    3,
+    4
+  ]
+}

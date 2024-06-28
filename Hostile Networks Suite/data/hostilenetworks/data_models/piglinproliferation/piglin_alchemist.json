@@ -1,0 +1,58 @@
+{
+  "conditions": [
+    {
+      "modid": "piglinproliferation",
+      "type": "forge:mod_loaded"
+    }
+  ],
+  "entity": "piglinproliferation:piglin_alchemist",
+  "variants": [],
+  "name": "entity.piglinproliferation.piglin_alchemist",
+  "name_color": "#808080",
+  "gui_scale": 1,
+  "gui_x_offset": 0,
+  "gui_y_offset": 0,
+  "gui_z_offset": 0,
+  "sim_cost": 256,
+  "input": {
+    "item": "hostilenetworks:prediction_matrix"
+  },
+  "base_drop": {
+    "item": "hostilenetworks:nether_prediction"
+  },
+  "trivia": "hostilenetworks.trivia.piglin_alchemist",
+  "fabricator_drops": [
+    {
+      "item": "minecraft:splash_potion{Potion: \"minecraft:strong_strength\"}",
+      "count": 1
+    },
+    {
+      "item": "minecraft:splash_potion{Potion: \"minecraft:strong_healing\"}",
+      "count": 1
+    },
+    {
+      "item": "minecraft:splash_potion{Potion: \"minecraft:strong_regeneration\"}",
+      "count": 1
+    },
+    {
+      "item": "minecraft:splash_potion{Potion: \"minecraft:fire_resistance\"}",
+      "count": 1
+    },
+    {
+      "item": "minecraft:tipped_arrow{Potion: \"minecraft:strong_healing\"}",
+      "count": 1
+    }
+  ],
+  "tier_data": [
+    7,
+    63,
+    214,
+    450
+  ],
+  "data_per_kill": [
+    1,
+    2,
+    3,
+    4
+  ]
+}

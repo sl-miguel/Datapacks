@@ -1,0 +1,46 @@
+{
+  "conditions": [
+    {
+      "modid": "call_of_yucutan",
+      "type": "forge:mod_loaded"
+    }
+  ],
+  "entity": "call_of_yucutan:kukulkan",
+  "variants": [],
+  "name": "entity.call_of_yucutan.kukulkan",
+  "name_color": "#FFA500",
+  "gui_scale": 1,
+  "gui_x_offset": 0,
+  "gui_y_offset": 0,
+  "gui_z_offset": 0,
+  "sim_cost": 8192,
+  "input": {
+    "item": "hostilenetworks:prediction_matrix"
+  },
+  "base_drop": {
+    "item": "hostilenetworks:overworld_prediction"
+  },
+  "trivia": "hostilenetworks.trivia.kukulkan",
+  "fabricator_drops": [
+    {
+      "item": "call_of_yucutan:fragment_of_rebirth",
+      "count": 1
+    },
+    {
+      "item": "call_of_yucutan:ancient_gold_ingot",
+      "count": 4
+    }
+  ],
+  "tier_data": [
+    2,
+    12,
+    36,
+    77
+  ],
+  "data_per_kill": [
+    1,
+    2,
+    3,
+    4
+  ]
+}

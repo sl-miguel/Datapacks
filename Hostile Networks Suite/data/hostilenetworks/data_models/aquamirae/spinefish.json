@@ -1,0 +1,42 @@
+{
+  "conditions": [
+    {
+      "modid": "aquamirae",
+      "type": "forge:mod_loaded"
+    }
+  ],
+  "entity": "aquamirae:spinefish",
+  "variants": [],
+  "name": "entity.aquamirae.spinefish",
+  "name_color": "#DADADA",
+  "gui_scale": 1,
+  "gui_x_offset": 0,
+  "gui_y_offset": 0,
+  "gui_z_offset": 0,
+  "sim_cost": 128,
+  "input": {
+    "item": "hostilenetworks:prediction_matrix"
+  },
+  "base_drop": {
+    "item": "hostilenetworks:overworld_prediction"
+  },
+  "trivia": "hostilenetworks.trivia.spinefish",
+  "fabricator_drops": [
+    {
+      "item": "aquamirae:spinefish",
+      "count": 1
+    }
+  ],
+  "tier_data": [
+    8,
+    76,
+    256,
+    529
+  ],
+  "data_per_kill": [
+    1,
+    2,
+    3,
+    4
+  ]
+}

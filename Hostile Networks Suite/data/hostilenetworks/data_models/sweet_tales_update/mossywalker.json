@@ -1,0 +1,46 @@
+{
+  "conditions": [
+    {
+      "modid": "sweet_tales_update",
+      "type": "forge:mod_loaded"
+    }
+  ],
+  "entity": "sweet_tales_update:mossywalker",
+  "variants": [],
+  "name": "entity.sweet_tales_update.mossywalker",
+  "name_color": "#4EC513",
+  "gui_scale": 1,
+  "gui_x_offset": 0,
+  "gui_y_offset": 0,
+  "gui_z_offset": 0,
+  "sim_cost": 512,
+  "input": {
+    "item": "hostilenetworks:prediction_matrix"
+  },
+  "base_drop": {
+    "item": "hostilenetworks:overworld_prediction"
+  },
+  "trivia": "hostilenetworks.trivia.mossywalker",
+  "fabricator_drops": [
+    {
+      "item": "sweet_tales_update:mossy_walker_meat",
+      "count": 3
+    },
+    {
+      "item": "sweet_tales_update:mossy_walker_feather",
+      "count": 3
+    }
+  ],
+  "tier_data": [
+    6,
+    51,
+    174,
+    372
+  ],
+  "data_per_kill": [
+    1,
+    2,
+    3,
+    4
+  ]
+}

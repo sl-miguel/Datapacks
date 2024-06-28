@@ -1,0 +1,54 @@
+{
+  "conditions": [
+    {
+      "modid": "iceandfire",
+      "type": "forge:mod_loaded"
+    }
+  ],
+  "entity": "iceandfire:hydra",
+  "variants": [],
+  "name": "entity.iceandfire.hydra",
+  "name_color": "#FFD700",
+  "gui_scale": 1,
+  "gui_x_offset": 0,
+  "gui_y_offset": 0,
+  "gui_z_offset": 0,
+  "sim_cost": 4096,
+  "input": {
+    "item": "hostilenetworks:prediction_matrix"
+  },
+  "base_drop": {
+    "item": "hostilenetworks:overworld_prediction"
+  },
+  "trivia": "hostilenetworks.trivia.hydra",
+  "fabricator_drops": [
+    {
+      "item": "iceandfire:hydra_fang",
+      "count": 5
+    },
+    {
+      "item": "minecraft:rotten_flesh",
+      "count": 4
+    },
+    {
+      "item": "iceandfire:hydra_heart",
+      "count": 1
+    },
+    {
+      "item": "iceandfire:hydra_skull",
+      "count": 1
+    }
+  ],
+  "tier_data": [
+    3,
+    21,
+    66,
+    153
+  ],
+  "data_per_kill": [
+    1,
+    2,
+    3,
+    4
+  ]
+}

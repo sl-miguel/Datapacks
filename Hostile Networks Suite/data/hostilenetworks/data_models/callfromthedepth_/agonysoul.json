@@ -1,0 +1,50 @@
+{
+  "conditions": [
+    {
+      "modid": "callfromthedepth_",
+      "type": "forge:mod_loaded"
+    }
+  ],
+  "entity": "callfromthedepth_:agonysoul",
+  "variants": [],
+  "name": "entity.callfromthedepth_.agonysoul",
+  "name_color": "#FFA500",
+  "gui_scale": 1,
+  "gui_x_offset": 0,
+  "gui_y_offset": 0,
+  "gui_z_offset": 0,
+  "sim_cost": 8192,
+  "input": {
+    "item": "hostilenetworks:prediction_matrix"
+  },
+  "base_drop": {
+    "item": "hostilenetworks:overworld_prediction"
+  },
+  "trivia": "hostilenetworks.trivia.agonysoul",
+  "fabricator_drops": [
+    {
+      "item": "callfromthedepth_:soulingot",
+      "count": 2
+    },
+    {
+      "item": "callfromthedepth_:agonybossmusic",
+      "count": 1
+    },
+    {
+      "item": "callfromthedepth_:soul_blade",
+      "count": 1
+    }
+  ],
+  "tier_data": [
+    2,
+    12,
+    36,
+    77
+  ],
+  "data_per_kill": [
+    1,
+    2,
+    3,
+    4
+  ]
+}

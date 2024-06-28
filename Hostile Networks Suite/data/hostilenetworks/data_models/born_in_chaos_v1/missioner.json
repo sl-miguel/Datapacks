@@ -1,0 +1,78 @@
+{
+  "conditions": [
+    {
+      "modid": "born_in_chaos_v1",
+      "type": "forge:mod_loaded"
+    }
+  ],
+  "entity": "born_in_chaos_v1:missioner",
+  "variants": [],
+  "name": "entity.born_in_chaos_v1.missioner",
+  "name_color": "#800080",
+  "gui_scale": 1,
+  "gui_x_offset": 0,
+  "gui_y_offset": 0,
+  "gui_z_offset": 0,
+  "sim_cost": 2048,
+  "input": {
+    "item": "hostilenetworks:prediction_matrix"
+  },
+  "base_drop": {
+    "item": "hostilenetworks:overworld_prediction"
+  },
+  "trivia": "hostilenetworks.trivia.missioner",
+  "fabricator_drops": [
+    {
+      "item": "born_in_chaos_v1:charmof_power",
+      "count": 1
+    },
+    {
+      "item": "born_in_chaos_v1:charmof_resistance",
+      "count": 1
+    },
+    {
+      "item": "born_in_chaos_v1:charmof_stealth",
+      "count": 1
+    },
+    {
+      "item": "born_in_chaos_v1:charmof_endurance",
+      "count": 1
+    },
+    {
+      "item": "born_in_chaos_v1:charmof_fury",
+      "count": 1
+    },
+    {
+      "item": "born_in_chaos_v1:ethereal_spirit",
+      "count": 3
+    },
+    {
+      "item": "born_in_chaos_v1:orbofthe_summoner",
+      "count": 1
+    },
+    {
+      "item": "born_in_chaos_v1:missionary_hat_helmet",
+      "count": 1
+    },
+    {
+      "item": "born_in_chaos_v1:pieceofdarkmetal",
+      "count": 10
+    },
+    {
+      "item": "born_in_chaos_v1:pileof_dark_metal",
+      "count": 1
+    }
+  ],
+  "tier_data": [
+    4,
+    30,
+    100,
+    219
+  ],
+  "data_per_kill": [
+    1,
+    2,
+    3,
+    4
+  ]
+}

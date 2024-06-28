@@ -1,0 +1,66 @@
+{
+  "conditions": [
+    {
+      "modid": "mowziesmobs",
+      "type": "forge:mod_loaded"
+    }
+  ],
+  "entity": "mowziesmobs:umvuthana",
+  "variants": [],
+  "name": "entity.mowziesmobs.umvuthana",
+  "name_color": "#808080",
+  "gui_scale": 1,
+  "gui_x_offset": 0,
+  "gui_y_offset": 0,
+  "gui_z_offset": 0,
+  "sim_cost": 256,
+  "input": {
+    "item": "hostilenetworks:prediction_matrix"
+  },
+  "base_drop": {
+    "item": "hostilenetworks:overworld_prediction"
+  },
+  "trivia": "hostilenetworks.trivia.umvuthana",
+  "fabricator_drops": [
+    {
+      "item": "mowziesmobs:umvuthana_mask_fury",
+      "count": 1
+    },
+    {
+      "item": "mowziesmobs:umvuthana_mask_fear",
+      "count": 1
+    },
+    {
+      "item": "mowziesmobs:umvuthana_mask_rage",
+      "count": 1
+    },
+    {
+      "item": "mowziesmobs:umvuthana_mask_bliss",
+      "count": 1
+    },
+    {
+      "item": "mowziesmobs:umvuthana_mask_misery",
+      "count": 1
+    },
+    {
+      "item": "mowziesmobs:umvuthana_mask_faith",
+      "count": 1
+    },
+    {
+      "item": "minecraft:feather",
+      "count": 1
+    }
+  ],
+  "tier_data": [
+    7,
+    63,
+    214,
+    450
+  ],
+  "data_per_kill": [
+    1,
+    2,
+    3,
+    4
+  ]
+}

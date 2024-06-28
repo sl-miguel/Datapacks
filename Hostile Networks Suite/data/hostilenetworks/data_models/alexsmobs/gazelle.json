@@ -1,0 +1,46 @@
+{
+  "conditions": [
+    {
+      "modid": "alexsmobs",
+      "type": "forge:mod_loaded"
+    }
+  ],
+  "entity": "alexsmobs:gazelle",
+  "variants": [],
+  "name": "entity.alexsmobs.gazelle",
+  "name_color": "#4EC513",
+  "gui_scale": 1,
+  "gui_x_offset": 0,
+  "gui_y_offset": 0,
+  "gui_z_offset": 0,
+  "sim_cost": 512,
+  "input": {
+    "item": "hostilenetworks:prediction_matrix"
+  },
+  "base_drop": {
+    "item": "hostilenetworks:overworld_prediction"
+  },
+  "trivia": "hostilenetworks.trivia.gazelle",
+  "fabricator_drops": [
+    {
+      "item": "minecraft:raw_mutton",
+      "count": 1
+    },
+    {
+      "item": "alexsmobs:gazelle_horn",
+      "count": 1
+    }
+  ],
+  "tier_data": [
+    6,
+    51,
+    174,
+    372
+  ],
+  "data_per_kill": [
+    1,
+    2,
+    3,
+    4
+  ]
+}

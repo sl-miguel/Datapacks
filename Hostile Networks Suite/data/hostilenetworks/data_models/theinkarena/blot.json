@@ -1,0 +1,42 @@
+{
+  "conditions": [
+    {
+      "modid": "theinkarena",
+      "type": "forge:mod_loaded"
+    }
+  ],
+  "entity": "theinkarena:blot",
+  "variants": [],
+  "name": "entity.theinkarena.blot",
+  "name_color": "#FFA500",
+  "gui_scale": 1,
+  "gui_x_offset": 0,
+  "gui_y_offset": 0,
+  "gui_z_offset": 0,
+  "sim_cost": 8192,
+  "input": {
+    "item": "hostilenetworks:prediction_matrix"
+  },
+  "base_drop": {
+    "item": "hostilenetworks:overworld_prediction"
+  },
+  "trivia": "hostilenetworks.trivia.blot",
+  "fabricator_drops": [
+    {
+      "item": "theinkarena:soul_core",
+      "count": 1
+    }
+  ],
+  "tier_data": [
+    2,
+    12,
+    36,
+    77
+  ],
+  "data_per_kill": [
+    1,
+    2,
+    3,
+    4
+  ]
+}

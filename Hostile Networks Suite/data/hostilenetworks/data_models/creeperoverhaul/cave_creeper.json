@@ -1,0 +1,62 @@
+{
+  "conditions": [
+    {
+      "modid": "creeperoverhaul",
+      "type": "forge:mod_loaded"
+    }
+  ],
+  "entity": "creeperoverhaul:cave_creeper",
+  "variants": [],
+  "name": "entity.creeperoverhaul.cave_creeper",
+  "name_color": "#808080",
+  "gui_scale": 1,
+  "gui_x_offset": 0,
+  "gui_y_offset": 0,
+  "gui_z_offset": 0,
+  "sim_cost": 256,
+  "input": {
+    "item": "hostilenetworks:prediction_matrix"
+  },
+  "base_drop": {
+    "item": "hostilenetworks:overworld_prediction"
+  },
+  "trivia": "hostilenetworks.trivia.cave_creeper",
+  "fabricator_drops": [
+    {
+      "item": "minecraft:gunpowder",
+      "count": 2
+    },
+    {
+      "item": "minecraft:stone",
+      "count": 2
+    },
+    {
+      "item": "minecraft:raw_iron",
+      "count": 1
+    },
+    {
+      "item": "minecraft:raw_gold",
+      "count": 1
+    },
+    {
+      "item": "minecraft:emerald",
+      "count": 1
+    },
+    {
+      "item": "minecraft:diamond",
+      "count": 1
+    }
+  ],
+  "tier_data": [
+    7,
+    63,
+    214,
+    450
+  ],
+  "data_per_kill": [
+    1,
+    2,
+    3,
+    4
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "conditions": [
+    {
+      "modid": "call_of_yucutan",
+      "type": "forge:mod_loaded"
+    }
+  ],
+  "entity": "call_of_yucutan:blowgun_huracan",
+  "variants": [],
+  "name": "entity.call_of_yucutan.blowgun_huracan",
+  "name_color": "#808080",
+  "gui_scale": 1,
+  "gui_x_offset": 0,
+  "gui_y_offset": 0,
+  "gui_z_offset": 0,
+  "sim_cost": 256,
+  "input": {
+    "item": "hostilenetworks:prediction_matrix"
+  },
+  "base_drop": {
+    "item": "hostilenetworks:overworld_prediction"
+  },
+  "trivia": "hostilenetworks.trivia.blowgun_huracan",
+  "fabricator_drops": [
+    {
+      "item": "call_of_yucutan:huracan_helmet",
+      "count": 1
+    },
+    {
+      "item": "call_of_yucutan:blow_gun",
+      "count": 1
+    },
+    {
+      "item": "call_of_yucutan:elder_bone",
+      "count": 2
+    },
+    {
+      "item": "call_of_yucutan:poisonous_dart",
+      "count": 3
+    }
+  ],
+  "tier_data": [
+    7,
+    63,
+    214,
+    450
+  ],
+  "data_per_kill": [
+    1,
+    2,
+    3,
+    4
+  ]
+}

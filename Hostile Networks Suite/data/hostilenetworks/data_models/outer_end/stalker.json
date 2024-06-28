@@ -1,0 +1,42 @@
+{
+  "conditions": [
+    {
+      "modid": "outer_end",
+      "type": "forge:mod_loaded"
+    }
+  ],
+  "entity": "outer_end:stalker",
+  "variants": [],
+  "name": "entity.outer_end.stalker",
+  "name_color": "#4EC513",
+  "gui_scale": 1,
+  "gui_x_offset": 0,
+  "gui_y_offset": 0,
+  "gui_z_offset": 0,
+  "sim_cost": 512,
+  "input": {
+    "item": "hostilenetworks:prediction_matrix"
+  },
+  "base_drop": {
+    "item": "hostilenetworks:end_prediction"
+  },
+  "trivia": "hostilenetworks.trivia.stalker",
+  "fabricator_drops": [
+    {
+      "item": "outer_end:stalker_meat",
+      "count": 3
+    }
+  ],
+  "tier_data": [
+    6,
+    51,
+    174,
+    372
+  ],
+  "data_per_kill": [
+    1,
+    2,
+    3,
+    4
+  ]
+}

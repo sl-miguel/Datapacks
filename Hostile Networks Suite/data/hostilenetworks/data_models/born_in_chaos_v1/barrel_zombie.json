@@ -1,0 +1,194 @@
+{
+  "conditions": [
+    {
+      "modid": "born_in_chaos_v1",
+      "type": "forge:mod_loaded"
+    }
+  ],
+  "entity": "born_in_chaos_v1:barrel_zombie",
+  "variants": [],
+  "name": "entity.born_in_chaos_v1.barrel_zombie",
+  "name_color": "#FF0000",
+  "gui_scale": 1,
+  "gui_x_offset": 0,
+  "gui_y_offset": 0,
+  "gui_z_offset": 0,
+  "sim_cost": 16384,
+  "input": {
+    "item": "hostilenetworks:prediction_matrix"
+  },
+  "base_drop": {
+    "item": "hostilenetworks:overworld_prediction"
+  },
+  "trivia": "hostilenetworks.trivia.barrel_zombie",
+  "fabricator_drops": [
+    {
+      "item": "minecraft:rotten_flesh",
+      "count": 1
+    },
+    {
+      "item": "minecraft:kelp",
+      "count": 1
+    },
+    {
+      "item": "minecraft:carrot",
+      "count": 1
+    },
+    {
+      "item": "born_in_chaos_v1:rotten_fish",
+      "count": 1
+    },
+    {
+      "item": "minecraft:cod",
+      "count": 1
+    },
+    {
+      "item": "minecraft:salmon",
+      "count": 1
+    },
+    {
+      "item": "minecraft:poisonous_potato",
+      "count": 1
+    },
+    {
+      "item": "minecraft:beetroot",
+      "count": 1
+    },
+    {
+      "item": "minecraft:tropical_fish",
+      "count": 1
+    },
+    {
+      "item": "minecraft:pufferfish",
+      "count": 1
+    },
+    {
+      "item": "minecraft:potato",
+      "count": 1
+    },
+    {
+      "item": "minecraft:scute",
+      "count": 1
+    },
+    {
+      "item": "minecraft:emerald",
+      "count": 1
+    },
+    {
+      "item": "minecraft:lapis_lazuli",
+      "count": 1
+    },
+    {
+      "item": "minecraft:raw_iron",
+      "count": 1
+    },
+    {
+      "item": "minecraft:raw_copper",
+      "count": 1
+    },
+    {
+      "item": "minecraft:raw_gold",
+      "count": 1
+    },
+    {
+      "item": "minecraft:clay_ball",
+      "count": 1
+    },
+    {
+      "item": "minecraft:book",
+      "count": 1
+    },
+    {
+      "item": "minecraft:slime_ball",
+      "count": 1
+    },
+    {
+      "item": "minecraft:ink_sac",
+      "count": 1
+    },
+    {
+      "item": "minecraft:glow_ink_sac",
+      "count": 1
+    },
+    {
+      "item": "minecraft:gold_nugget",
+      "count": 1
+    },
+    {
+      "item": "minecraft:prismarine_shard",
+      "count": 1
+    },
+    {
+      "item": "minecraft:prismarine_crystals",
+      "count": 1
+    },
+    {
+      "item": "minecraft:name_tag",
+      "count": 1
+    },
+    {
+      "item": "minecraft:nautilus_shell",
+      "count": 1
+    },
+    {
+      "item": "born_in_chaos_v1:seedof_chaos",
+      "count": 1
+    },
+    {
+      "item": "born_in_chaos_v1:pieceofdarkmetal",
+      "count": 1
+    },
+    {
+      "item": "minecraft:turtle_egg",
+      "count": 1
+    },
+    {
+      "item": "minecraft:seagrass",
+      "count": 1
+    },
+    {
+      "item": "born_in_chaos_v1:river_mint",
+      "count": 1
+    },
+    {
+      "item": "minecraft:sugar_cane",
+      "count": 1
+    },
+    {
+      "item": "born_in_chaos_v1:spiny_shell",
+      "count": 1
+    },
+    {
+      "item": "minecraft:sea_pickle",
+      "count": 1
+    },
+    {
+      "item": "minecraft:barrel",
+      "count": 1
+    },
+    {
+      "item": "minecraft:tube_coral",
+      "count": 1
+    },
+    {
+      "item": "minecraft:fire_coral",
+      "count": 1
+    },
+    {
+      "item": "minecraft:horn_coral",
+      "count": 1
+    }
+  ],
+  "tier_data": [
+    1,
+    4,
+    14,
+    35
+  ],
+  "data_per_kill": [
+    1,
+    1,
+    2,
+    3
+  ]
+}

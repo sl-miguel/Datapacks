@@ -1,0 +1,66 @@
+{
+  "conditions": [
+    {
+      "modid": "born_in_chaos_v1",
+      "type": "forge:mod_loaded"
+    }
+  ],
+  "entity": "born_in_chaos_v1:door_knight",
+  "variants": [],
+  "name": "entity.born_in_chaos_v1.door_knight",
+  "name_color": "#DADADA",
+  "gui_scale": 1,
+  "gui_x_offset": 0,
+  "gui_y_offset": 0,
+  "gui_z_offset": 0,
+  "sim_cost": 128,
+  "input": {
+    "item": "hostilenetworks:prediction_matrix"
+  },
+  "base_drop": {
+    "item": "hostilenetworks:overworld_prediction"
+  },
+  "trivia": "hostilenetworks.trivia.door_knight",
+  "fabricator_drops": [
+    {
+      "item": "minecraft:rotten_flesh",
+      "count": 6
+    },
+    {
+      "item": "minecraft:iron_ingot",
+      "count": 3
+    },
+    {
+      "item": "minecraft:carrot",
+      "count": 2
+    },
+    {
+      "item": "minecraft:bucket",
+      "count": 1
+    },
+    {
+      "item": "born_in_chaos_v1:pieceofdarkmetal",
+      "count": 1
+    },
+    {
+      "item": "born_in_chaos_v1:mesh_door",
+      "count": 1
+    },
+    {
+      "item": "born_in_chaos_v1:trident_hayfork",
+      "count": 1
+    }
+  ],
+  "tier_data": [
+    8,
+    76,
+    256,
+    529
+  ],
+  "data_per_kill": [
+    1,
+    2,
+    3,
+    4
+  ]
+}

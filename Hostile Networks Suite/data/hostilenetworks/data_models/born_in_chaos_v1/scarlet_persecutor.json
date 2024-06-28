@@ -1,0 +1,42 @@
+{
+  "conditions": [
+    {
+      "modid": "born_in_chaos_v1",
+      "type": "forge:mod_loaded"
+    }
+  ],
+  "entity": "born_in_chaos_v1:scarlet_persecutor",
+  "variants": [],
+  "name": "entity.born_in_chaos_v1.scarlet_persecutor",
+  "name_color": "#DADADA",
+  "gui_scale": 1,
+  "gui_x_offset": 0,
+  "gui_y_offset": 0,
+  "gui_z_offset": 0,
+  "sim_cost": 128,
+  "input": {
+    "item": "hostilenetworks:prediction_matrix"
+  },
+  "base_drop": {
+    "item": "hostilenetworks:overworld_prediction"
+  },
+  "trivia": "hostilenetworks.trivia.scarlet_persecutor",
+  "fabricator_drops": [
+    {
+      "item": "born_in_chaos_v1:ethereal_spirit",
+      "count": 1
+    }
+  ],
+  "tier_data": [
+    8,
+    76,
+    256,
+    529
+  ],
+  "data_per_kill": [
+    1,
+    2,
+    3,
+    4
+  ]
+}

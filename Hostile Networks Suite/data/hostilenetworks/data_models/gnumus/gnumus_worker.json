@@ -1,0 +1,50 @@
+{
+  "conditions": [
+    {
+      "modid": "gnumus",
+      "type": "forge:mod_loaded"
+    }
+  ],
+  "entity": "gnumus:gnumus_worker",
+  "variants": [],
+  "name": "entity.gnumus.gnumus_worker",
+  "name_color": "#DADADA",
+  "gui_scale": 1,
+  "gui_x_offset": 0,
+  "gui_y_offset": 0,
+  "gui_z_offset": 0,
+  "sim_cost": 128,
+  "input": {
+    "item": "hostilenetworks:prediction_matrix"
+  },
+  "base_drop": {
+    "item": "hostilenetworks:overworld_prediction"
+  },
+  "trivia": "hostilenetworks.trivia.gnumus_worker",
+  "fabricator_drops": [
+    {
+      "item": "gnumus:gnumus_claw",
+      "count": 1
+    },
+    {
+      "item": "gnumus:gnumus_pouch",
+      "count": 1
+    },
+    {
+      "item": "gnumus:gnumus_doubloons",
+      "count": 3
+    }
+  ],
+  "tier_data": [
+    8,
+    76,
+    256,
+    529
+  ],
+  "data_per_kill": [
+    1,
+    2,
+    3,
+    4
+  ]
+}

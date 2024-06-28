@@ -1,0 +1,46 @@
+{
+  "conditions": [
+    {
+      "modid": "alexsmobs",
+      "type": "forge:mod_loaded"
+    }
+  ],
+  "entity": "alexsmobs:cosmic_cod",
+  "variants": [],
+  "name": "entity.alexsmobs.cosmic_cod",
+  "name_color": "#DADADA",
+  "gui_scale": 1,
+  "gui_x_offset": 0,
+  "gui_y_offset": 0,
+  "gui_z_offset": 0,
+  "sim_cost": 128,
+  "input": {
+    "item": "hostilenetworks:prediction_matrix"
+  },
+  "base_drop": {
+    "item": "hostilenetworks:end_prediction"
+  },
+  "trivia": "hostilenetworks.trivia.cosmic_cod",
+  "fabricator_drops": [
+    {
+      "item": "alexsmobs:cosmic_cod",
+      "count": 1
+    },
+    {
+      "item": "minecraft:bone_meal",
+      "count": 1
+    }
+  ],
+  "tier_data": [
+    8,
+    76,
+    256,
+    529
+  ],
+  "data_per_kill": [
+    1,
+    2,
+    3,
+    4
+  ]
+}

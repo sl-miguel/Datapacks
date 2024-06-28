@@ -1,0 +1,66 @@
+{
+  "conditions": [
+    {
+      "modid": "born_in_chaos_v1",
+      "type": "forge:mod_loaded"
+    }
+  ],
+  "entity": "born_in_chaos_v1:supreme_bonescaller",
+  "variants": [],
+  "name": "entity.born_in_chaos_v1.supreme_bonescaller",
+  "name_color": "#3EC2FF",
+  "gui_scale": 1,
+  "gui_x_offset": 0,
+  "gui_y_offset": 0,
+  "gui_z_offset": 0,
+  "sim_cost": 1024,
+  "input": {
+    "item": "hostilenetworks:prediction_matrix"
+  },
+  "base_drop": {
+    "item": "hostilenetworks:overworld_prediction"
+  },
+  "trivia": "hostilenetworks.trivia.supreme_bonescaller",
+  "fabricator_drops": [
+    {
+      "item": "minecraft:bone",
+      "count": 3
+    },
+    {
+      "item": "born_in_chaos_v1:shattered_skull",
+      "count": 1
+    },
+    {
+      "item": "born_in_chaos_v1:seedof_chaos",
+      "count": 3
+    },
+    {
+      "item": "born_in_chaos_v1:staffof_magic_arrows",
+      "count": 1
+    },
+    {
+      "item": "born_in_chaos_v1:death_totem",
+      "count": 1
+    },
+    {
+      "item": "born_in_chaos_v1:orbofthe_summoner",
+      "count": 1
+    },
+    {
+      "item": "born_in_chaos_v1:spiritual_dust",
+      "count": 5
+    }
+  ],
+  "tier_data": [
+    5,
+    40,
+    136,
+    295
+  ],
+  "data_per_kill": [
+    1,
+    2,
+    3,
+    4
+  ]
+}

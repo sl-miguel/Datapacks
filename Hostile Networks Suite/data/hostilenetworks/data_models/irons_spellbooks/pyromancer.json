@@ -1,0 +1,66 @@
+{
+  "conditions": [
+    {
+      "modid": "irons_spellbooks",
+      "type": "forge:mod_loaded"
+    }
+  ],
+  "entity": "irons_spellbooks:pyromancer",
+  "variants": [],
+  "name": "entity.irons_spellbooks.pyromancer",
+  "name_color": "#3EC2FF",
+  "gui_scale": 1,
+  "gui_x_offset": 0,
+  "gui_y_offset": 0,
+  "gui_z_offset": 0,
+  "sim_cost": 1024,
+  "input": {
+    "item": "hostilenetworks:prediction_matrix"
+  },
+  "base_drop": {
+    "item": "hostilenetworks:overworld_prediction"
+  },
+  "trivia": "hostilenetworks.trivia.pyromancer",
+  "fabricator_drops": [
+    {
+      "item": "irons_spellbooks:fire_rune",
+      "count": 1
+    },
+    {
+      "item": "irons_spellbooks:arcane_essence",
+      "count": 8
+    },
+    {
+      "item": "irons_spellbooks:common_ink",
+      "count": 1
+    },
+    {
+      "item": "irons_spellbooks:uncommon_ink",
+      "count": 1
+    },
+    {
+      "item": "irons_spellbooks:rare_ink",
+      "count": 1
+    },
+    {
+      "item": "irons_spellbooks:epic_ink",
+      "count": 1
+    },
+    {
+      "item": "irons_spellbooks:legendary_ink",
+      "count": 1
+    }
+  ],
+  "tier_data": [
+    5,
+    40,
+    136,
+    295
+  ],
+  "data_per_kill": [
+    1,
+    2,
+    3,
+    4
+  ]
+}

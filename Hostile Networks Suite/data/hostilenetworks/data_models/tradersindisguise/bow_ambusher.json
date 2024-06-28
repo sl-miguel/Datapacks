@@ -1,0 +1,46 @@
+{
+  "conditions": [
+    {
+      "modid": "tradersindisguise",
+      "type": "forge:mod_loaded"
+    }
+  ],
+  "entity": "tradersindisguise:bow_ambusher",
+  "variants": [],
+  "name": "entity.tradersindisguise.bow_ambusher",
+  "name_color": "#3EC2FF",
+  "gui_scale": 1,
+  "gui_x_offset": 0,
+  "gui_y_offset": 0,
+  "gui_z_offset": 0,
+  "sim_cost": 1024,
+  "input": {
+    "item": "hostilenetworks:prediction_matrix"
+  },
+  "base_drop": {
+    "item": "hostilenetworks:overworld_prediction"
+  },
+  "trivia": "hostilenetworks.trivia.bow_ambusher",
+  "fabricator_drops": [
+    {
+      "item": "tradersindisguise:tribow>",
+      "count": 1
+    },
+    {
+      "item": "minecraft:emerald",
+      "count": 5
+    }
+  ],
+  "tier_data": [
+    5,
+    40,
+    136,
+    295
+  ],
+  "data_per_kill": [
+    1,
+    2,
+    3,
+    4
+  ]
+}

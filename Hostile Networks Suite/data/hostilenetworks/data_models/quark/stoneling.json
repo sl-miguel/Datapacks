@@ -1,0 +1,106 @@
+{
+  "conditions": [
+    {
+      "modid": "quark",
+      "type": "forge:mod_loaded"
+    }
+  ],
+  "entity": "quark:stoneling",
+  "variants": [],
+  "name": "entity.quark.stoneling",
+  "name_color": "#800080",
+  "gui_scale": 1,
+  "gui_x_offset": 0,
+  "gui_y_offset": 0,
+  "gui_z_offset": 0,
+  "sim_cost": 2048,
+  "input": {
+    "item": "hostilenetworks:prediction_matrix"
+  },
+  "base_drop": {
+    "item": "hostilenetworks:overworld_prediction"
+  },
+  "trivia": "hostilenetworks.trivia.stoneling",
+  "fabricator_drops": [
+    {
+      "item": "minecraft:coal",
+      "count": 1
+    },
+    {
+      "item": "minecraft:redstone",
+      "count": 1
+    },
+    {
+      "item": "minecraft:lapis_lazuli",
+      "count": 1
+    },
+    {
+      "item": "minecraft:iron_ingot",
+      "count": 1
+    },
+    {
+      "item": "minecraft:gold_ingot",
+      "count": 1
+    },
+    {
+      "item": "minecraft:emerald",
+      "count": 1
+    },
+    {
+      "item": "minecraft:diamond",
+      "count": 1
+    },
+    {
+      "item": "minecraft:zombie_head",
+      "count": 1
+    },
+    {
+      "item": "minecraft:creeper_head",
+      "count": 1
+    },
+    {
+      "item": "minecraft:iron_horse_armor",
+      "count": 1
+    },
+    {
+      "item": "minecraft:golden_horse_armor",
+      "count": 1
+    },
+    {
+      "item": "minecraft:diamond_horse_armor",
+      "count": 1
+    },
+    {
+      "item": "minecraft:name_tag",
+      "count": 1
+    },
+    {
+      "item": "minecraft:saddle",
+      "count": 1
+    },
+    {
+      "item": "quark:diamond_heart",
+      "count": 1
+    },
+    {
+      "item": "minecraft:ender_pearl",
+      "count": 1
+    },
+    {
+      "item": "minecraft:golden_apple",
+      "count": 1
+    }
+  ],
+  "tier_data": [
+    4,
+    30,
+    100,
+    219
+  ],
+  "data_per_kill": [
+    1,
+    2,
+    3,
+    4
+  ]
+}

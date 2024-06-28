@@ -1,0 +1,70 @@
+{
+  "conditions": [
+    {
+      "modid": "bookwyrms",
+      "type": "forge:mod_loaded"
+    }
+  ],
+  "entity": "bookwyrms:book_wyrm",
+  "variants": [],
+  "name": "entity.bookwyrms.book_wyrm",
+  "name_color": "#4EC513",
+  "gui_scale": 1,
+  "gui_x_offset": 0,
+  "gui_y_offset": 0,
+  "gui_z_offset": 0,
+  "sim_cost": 512,
+  "input": {
+    "item": "hostilenetworks:prediction_matrix"
+  },
+  "base_drop": {
+    "item": "hostilenetworks:overworld_prediction"
+  },
+  "trivia": "hostilenetworks.trivia.book_wyrm",
+  "fabricator_drops": [
+    {
+      "item": "bookwyrms:book_wyrm_raw",
+      "count": 2
+    },
+    {
+      "item": "bookwyrms:scale_grey",
+      "count": 1
+    },
+    {
+      "item": "bookwyrms:scale_red",
+      "count": 1
+    },
+    {
+      "item": "bookwyrms:scale_green",
+      "count": 1
+    },
+    {
+      "item": "bookwyrms:scale_green",
+      "count": 1
+    },
+    {
+      "item": "bookwyrms:scale_blue",
+      "count": 1
+    },
+    {
+      "item": "bookwyrms:scale_teal",
+      "count": 1
+    },
+    {
+      "item": "bookwyrms:scale_purple",
+      "count": 1
+    }
+  ],
+  "tier_data": [
+    6,
+    51,
+    174,
+    372
+  ],
+  "data_per_kill": [
+    1,
+    2,
+    3,
+    4
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "conditions": [
+    {
+      "modid": "alexsmobs",
+      "type": "forge:mod_loaded"
+    }
+  ],
+  "entity": "alexsmobs:farseer",
+  "variants": [],
+  "name": "entity.alexsmobs.farseer",
+  "name_color": "#FF0000",
+  "gui_scale": 1,
+  "gui_x_offset": 0,
+  "gui_y_offset": 0,
+  "gui_z_offset": 0,
+  "sim_cost": 16384,
+  "input": {
+    "item": "hostilenetworks:prediction_matrix"
+  },
+  "base_drop": {
+    "item": "hostilenetworks:overworld_prediction"
+  },
+  "trivia": "hostilenetworks.trivia.farseer",
+  "fabricator_drops": [
+    {
+      "item": "alexsmobs:farseer_arm",
+      "count": 1
+    }
+  ],
+  "tier_data": [
+    1,
+    4,
+    14,
+    35
+  ],
+  "data_per_kill": [
+    1,
+    1,
+    2,
+    3
+  ]
+}

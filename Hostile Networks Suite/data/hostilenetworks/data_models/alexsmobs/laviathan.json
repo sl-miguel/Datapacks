@@ -1,0 +1,46 @@
+{
+  "conditions": [
+    {
+      "modid": "alexsmobs",
+      "type": "forge:mod_loaded"
+    }
+  ],
+  "entity": "alexsmobs:laviathan",
+  "variants": [],
+  "name": "entity.alexsmobs.laviathan",
+  "name_color": "#4EC513",
+  "gui_scale": 1,
+  "gui_x_offset": 0,
+  "gui_y_offset": 0,
+  "gui_z_offset": 0,
+  "sim_cost": 512,
+  "input": {
+    "item": "hostilenetworks:prediction_matrix"
+  },
+  "base_drop": {
+    "item": "hostilenetworks:nether_prediction"
+  },
+  "trivia": "hostilenetworks.trivia.laviathan",
+  "fabricator_drops": [
+    {
+      "item": "minecraft:magma_block",
+      "count": 3
+    },
+    {
+      "item": "minecraft:blackstone",
+      "count": 3
+    }
+  ],
+  "tier_data": [
+    6,
+    51,
+    174,
+    372
+  ],
+  "data_per_kill": [
+    1,
+    2,
+    3,
+    4
+  ]
+}

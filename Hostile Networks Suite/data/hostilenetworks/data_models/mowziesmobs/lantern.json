@@ -1,0 +1,42 @@
+{
+  "conditions": [
+    {
+      "modid": "mowziesmobs",
+      "type": "forge:mod_loaded"
+    }
+  ],
+  "entity": "mowziesmobs:lantern",
+  "variants": [],
+  "name": "entity.mowziesmobs.lantern",
+  "name_color": "#4EC513",
+  "gui_scale": 1,
+  "gui_x_offset": 0,
+  "gui_y_offset": 0,
+  "gui_z_offset": 0,
+  "sim_cost": 512,
+  "input": {
+    "item": "hostilenetworks:prediction_matrix"
+  },
+  "base_drop": {
+    "item": "hostilenetworks:overworld_prediction"
+  },
+  "trivia": "hostilenetworks.trivia.lantern",
+  "fabricator_drops": [
+    {
+      "item": "mowziesmobs:glowing_jelly",
+      "count": 2
+    }
+  ],
+  "tier_data": [
+    6,
+    51,
+    174,
+    372
+  ],
+  "data_per_kill": [
+    1,
+    2,
+    3,
+    4
+  ]
+}

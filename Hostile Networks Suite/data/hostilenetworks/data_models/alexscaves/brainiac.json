@@ -1,0 +1,50 @@
+{
+  "conditions": [
+    {
+      "modid": "alexscaves",
+      "type": "forge:mod_loaded"
+    }
+  ],
+  "entity": "alexscaves:brainiac",
+  "variants": [],
+  "name": "entity.alexscaves.brainiac",
+  "name_color": "#4EC513",
+  "gui_scale": 1,
+  "gui_x_offset": 0,
+  "gui_y_offset": 0,
+  "gui_z_offset": 0,
+  "sim_cost": 256,
+  "input": {
+    "item": "hostilenetworks:prediction_matrix"
+  },
+  "base_drop": {
+    "item": "hostilenetworks:overworld_prediction"
+  },
+  "trivia": "hostilenetworks.trivia.brainiac",
+  "fabricator_drops": [
+    {
+      "item": "alexscaves:green_soylent",
+      "count": 1
+    },
+    {
+      "item": "minecraft:rotten_flesh",
+      "count": 2
+    },
+    {
+      "item": "alexscaves:charred_remnant",
+      "count": 1
+    }
+  ],
+  "tier_data": [
+    7,
+    63,
+    214,
+    450
+  ],
+  "data_per_kill": [
+    1,
+    2,
+    3,
+    4
+  ]
+}

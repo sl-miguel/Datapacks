@@ -1,0 +1,46 @@
+{
+  "conditions": [
+    {
+      "modid": "mowziesmobs",
+      "type": "forge:mod_loaded"
+    }
+  ],
+  "entity": "mowziesmobs:frostmaw",
+  "variants": [],
+  "name": "entity.mowziesmobs.frostmaw",
+  "name_color": "#FFD700",
+  "gui_scale": 1,
+  "gui_x_offset": 0,
+  "gui_y_offset": 0,
+  "gui_z_offset": 0,
+  "sim_cost": 4096,
+  "input": {
+    "item": "hostilenetworks:prediction_matrix"
+  },
+  "base_drop": {
+    "item": "hostilenetworks:overworld_prediction"
+  },
+  "trivia": "hostilenetworks.trivia.frostmaw",
+  "fabricator_drops": [
+    {
+      "item": "mowziesmobs:ice_crystal",
+      "count": 1
+    },
+    {
+      "item": "mowziesmobs:music_disc_petiole",
+      "count": 1
+    }
+  ],
+  "tier_data": [
+    3,
+    21,
+    66,
+    153
+  ],
+  "data_per_kill": [
+    1,
+    2,
+    3,
+    4
+  ]
+}

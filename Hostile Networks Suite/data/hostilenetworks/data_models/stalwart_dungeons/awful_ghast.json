@@ -1,0 +1,50 @@
+{
+  "conditions": [
+    {
+      "modid": "stalwart_dungeons",
+      "type": "forge:mod_loaded"
+    }
+  ],
+  "entity": "stalwart_dungeons:awful_ghast",
+  "variants": [],
+  "name": "entity.stalwart_dungeons.awful_ghast",
+  "name_color": "#FFD700",
+  "gui_scale": 1,
+  "gui_x_offset": 0,
+  "gui_y_offset": 0,
+  "gui_z_offset": 0,
+  "sim_cost": 4096,
+  "input": {
+    "item": "hostilenetworks:prediction_matrix"
+  },
+  "base_drop": {
+    "item": "hostilenetworks:nether_prediction"
+  },
+  "trivia": "hostilenetworks.trivia.awful_ghast",
+  "fabricator_drops": [
+    {
+      "item": "minecraft:ghast_tear",
+      "count": 3
+    },
+    {
+      "item": "stalwart_dungeons:awful_crystal",
+      "count": 4
+    },
+    {
+      "item": "stalwart_dungeons:awful_gun",
+      "count": 1
+    }
+  ],
+  "tier_data": [
+    3,
+    21,
+    66,
+    153
+  ],
+  "data_per_kill": [
+    1,
+    2,
+    3,
+    4
+  ]
+}

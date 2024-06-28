@@ -1,0 +1,50 @@
+{
+  "conditions": [
+    {
+      "modid": "cataclysm",
+      "type": "forge:mod_loaded"
+    }
+  ],
+  "entity": "cataclysm:netherite_monstrosity",
+  "variants": [],
+  "name": "entity.cataclysm.netherite_monstrosity",
+  "name_color": "#FFA500",
+  "gui_scale": 1,
+  "gui_x_offset": 0,
+  "gui_y_offset": 0,
+  "gui_z_offset": 0,
+  "sim_cost": 8192,
+  "input": {
+    "item": "hostilenetworks:prediction_matrix"
+  },
+  "base_drop": {
+    "item": "hostilenetworks:nether_prediction"
+  },
+  "trivia": "hostilenetworks.trivia.netherite_monstrosity",
+  "fabricator_drops": [
+    {
+      "item": "cataclysm:monstrous_horn",
+      "count": 1
+    },
+    {
+      "item": "cataclysm:music_disc_netherite_monstrosity",
+      "count": 1
+    },
+    {
+      "item": "cataclysm:infernal_forge",
+      "count": 1
+    }
+  ],
+  "tier_data": [
+    2,
+    12,
+    36,
+    77
+  ],
+  "data_per_kill": [
+    1,
+    2,
+    3,
+    4
+  ]
+}

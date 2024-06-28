@@ -1,0 +1,62 @@
+{
+  "conditions": [
+    {
+      "modid": "born_in_chaos_v1",
+      "type": "forge:mod_loaded"
+    }
+  ],
+  "entity": "born_in_chaos_v1:sir_pumpkinhead",
+  "variants": [],
+  "name": "entity.born_in_chaos_v1.sir_pumpkinhead",
+  "name_color": "#FFD700",
+  "gui_scale": 1,
+  "gui_x_offset": 0,
+  "gui_y_offset": 0,
+  "gui_z_offset": 0,
+  "sim_cost": 4096,
+  "input": {
+    "item": "hostilenetworks:prediction_matrix"
+  },
+  "base_drop": {
+    "item": "hostilenetworks:overworld_prediction"
+  },
+  "trivia": "hostilenetworks.trivia.sir_pumpkinhead",
+  "fabricator_drops": [
+    {
+      "item": "born_in_chaos_v1:soul_cutlass",
+      "count": 1
+    },
+    {
+      "item": "born_in_chaos_v1:holiday_candy",
+      "count": 32
+    },
+    {
+      "item": "born_in_chaos_v1:serpumpkinhead_m",
+      "count": 1
+    },
+    {
+      "item": "born_in_chaos_v1:fel_lamp",
+      "count": 1
+    },
+    {
+      "item": "born_in_chaos_v1:pumpkin_staff",
+      "count": 1
+    },
+    {
+      "item": "minecraft:pumpkin_stem",
+      "count": 30
+    }
+  ],
+  "tier_data": [
+    3,
+    21,
+    66,
+    153
+  ],
+  "data_per_kill": [
+    1,
+    2,
+    3,
+    4
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "conditions": [
+    {
+      "modid": "dungeonnowloading",
+      "type": "forge:mod_loaded"
+    }
+  ],
+  "entity": "dungeonnowloading:hollow",
+  "variants": [],
+  "name": "entity.dungeonnowloading.hollow",
+  "name_color": "#3EC2FF",
+  "gui_scale": 1,
+  "gui_x_offset": 0,
+  "gui_y_offset": 0,
+  "gui_z_offset": 0,
+  "sim_cost": 1024,
+  "input": {
+    "item": "hostilenetworks:prediction_matrix"
+  },
+  "base_drop": {
+    "item": "hostilenetworks:overworld_prediction"
+  },
+  "trivia": "hostilenetworks.trivia.hollow",
+  "fabricator_drops": [
+    {
+      "item": "dungeonnowloading:soul_cloth",
+      "count": 1
+    }
+  ],
+  "tier_data": [
+    5,
+    40,
+    136,
+    295
+  ],
+  "data_per_kill": [
+    1,
+    2,
+    3,
+    4
+  ]
+}

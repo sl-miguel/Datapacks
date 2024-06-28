@@ -1,0 +1,66 @@
+{
+  "conditions": [
+    {
+      "modid": "aquamirae",
+      "type": "forge:mod_loaded"
+    }
+  ],
+  "entity": "aquamirae:captain_cornelia",
+  "variants": [],
+  "name": "entity.aquamirae.captain_cornelia",
+  "name_color": "#FFA500",
+  "gui_scale": 1,
+  "gui_x_offset": 0,
+  "gui_y_offset": 0,
+  "gui_z_offset": 0,
+  "sim_cost": 8192,
+  "input": {
+    "item": "hostilenetworks:prediction_matrix"
+  },
+  "base_drop": {
+    "item": "hostilenetworks:overworld_prediction"
+  },
+  "trivia": "hostilenetworks.trivia.captain_cornelia",
+  "fabricator_drops": [
+    {
+      "item": "aquamirae:frozen_key",
+      "count": 1
+    },
+    {
+      "item": "aquamirae:oxygen_tank",
+      "count": 1
+    },
+    {
+      "item": "aquamirae:treasure_pouch",
+      "count": 1
+    },
+    {
+      "item": "aquamirae:ship_graveyard_echo",
+      "count": 1
+    },
+    {
+      "item": "aquamirae:three_bolt_helmet",
+      "count": 1
+    },
+    {
+      "item": "aquamirae:music_disc_forsaken_drownage",
+      "count": 1
+    },
+    {
+      "item": "minecraft:paper",
+      "count": 1
+    }
+  ],
+  "tier_data": [
+    2,
+    12,
+    36,
+    77
+  ],
+  "data_per_kill": [
+    1,
+    2,
+    3,
+    4
+  ]
+}

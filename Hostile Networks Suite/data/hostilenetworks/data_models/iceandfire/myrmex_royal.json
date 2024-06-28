@@ -1,0 +1,58 @@
+{
+  "conditions": [
+    {
+      "modid": "iceandfire",
+      "type": "forge:mod_loaded"
+    }
+  ],
+  "entity": "iceandfire:myrmex_royal",
+  "variants": [],
+  "name": "entity.iceandfire.myrmex_royal",
+  "name_color": "#3EC2FF",
+  "gui_scale": 1,
+  "gui_x_offset": 0,
+  "gui_y_offset": 0,
+  "gui_z_offset": 0,
+  "sim_cost": 1024,
+  "input": {
+    "item": "hostilenetworks:prediction_matrix"
+  },
+  "base_drop": {
+    "item": "hostilenetworks:overworld_prediction"
+  },
+  "trivia": "hostilenetworks.trivia.myrmex_royal",
+  "fabricator_drops": [
+    {
+      "item": "iceandfire:myrmex_desert_chitin",
+      "count": 5
+    },
+    {
+      "item": "iceandfire:myrmex_jungle_chitin",
+      "count": 5
+    },
+    {
+      "item": "iceandfire:myrmex_desert_resin",
+      "count": 6
+    },
+    {
+      "item": "iceandfire:myrmex_jungle_resin",
+      "count": 6
+    },
+    {
+      "item": "iceandfire:myrmex_stinger",
+      "count": 1
+    }
+  ],
+  "tier_data": [
+    5,
+    40,
+    136,
+    295
+  ],
+  "data_per_kill": [
+    1,
+    2,
+    3,
+    4
+  ]
+}

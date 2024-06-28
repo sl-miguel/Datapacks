@@ -1,0 +1,82 @@
+{
+  "conditions": [
+    {
+      "modid": "born_in_chaos_v1",
+      "type": "forge:mod_loaded"
+    }
+  ],
+  "entity": "born_in_chaos_v1:zombie_lumberjack",
+  "variants": [],
+  "name": "entity.born_in_chaos_v1.zombie_lumberjack",
+  "name_color": "#808080",
+  "gui_scale": 1,
+  "gui_x_offset": 0,
+  "gui_y_offset": 0,
+  "gui_z_offset": 0,
+  "sim_cost": 256,
+  "input": {
+    "item": "hostilenetworks:prediction_matrix"
+  },
+  "base_drop": {
+    "item": "hostilenetworks:overworld_prediction"
+  },
+  "trivia": "hostilenetworks.trivia.zombie_lumberjack",
+  "fabricator_drops": [
+    {
+      "item": "minecraft:rotten_flesh",
+      "count": 2
+    },
+    {
+      "item": "minecraft:mangrove_log",
+      "count": 1
+    },
+    {
+      "item": "minecraft:oak_log",
+      "count": 1
+    },
+    {
+      "item": "minecraft:spruce_log",
+      "count": 1
+    },
+    {
+      "item": "minecraft:birch_log",
+      "count": 1
+    },
+    {
+      "item": "minecraft:jungle_log",
+      "count": 1
+    },
+    {
+      "item": "minecraft:acacia_log",
+      "count": 1
+    },
+    {
+      "item": "minecraft:cherry_log",
+      "count": 1
+    },
+    {
+      "item": "minecraft:dark_oak_log",
+      "count": 1
+    },
+    {
+      "item": "minecraft:iron_ingot",
+      "count": 1
+    },
+    {
+      "item": "born_in_chaos_v1:wood_splitter_axe",
+      "count": 1
+    }
+  ],
+  "tier_data": [
+    7,
+    63,
+    214,
+    450
+  ],
+  "data_per_kill": [
+    1,
+    2,
+    3,
+    4
+  ]
+}

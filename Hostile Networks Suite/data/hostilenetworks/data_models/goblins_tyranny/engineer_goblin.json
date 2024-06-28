@@ -1,0 +1,62 @@
+{
+  "conditions": [
+    {
+      "modid": "goblins_tyranny",
+      "type": "forge:mod_loaded"
+    }
+  ],
+  "entity": "goblins_tyranny:engineer_goblin",
+  "variants": [],
+  "name": "entity.goblins_tyranny.engineer_goblin",
+  "name_color": "#4EC513",
+  "gui_scale": 1,
+  "gui_x_offset": 0,
+  "gui_y_offset": 0,
+  "gui_z_offset": 0,
+  "sim_cost": 512,
+  "input": {
+    "item": "hostilenetworks:prediction_matrix"
+  },
+  "base_drop": {
+    "item": "hostilenetworks:overworld_prediction"
+  },
+  "trivia": "hostilenetworks.trivia.engineer_goblin",
+  "fabricator_drops": [
+    {
+      "item": "goblins_tyranny:bomb_bag",
+      "count": 1
+    },
+    {
+      "item": "goblins_tyranny:engineer_scrap",
+      "count": 1
+    },
+    {
+      "item": "goblins_tyranny:fire_bomb",
+      "count": 1
+    },
+    {
+      "item": "goblins_tyranny:gaz_bomb",
+      "count": 1
+    },
+    {
+      "item": "goblins_tyranny:bomb",
+      "count": 1
+    },
+    {
+      "item": "goblins_tyranny:goblins_meat",
+      "count": 1
+    }
+  ],
+  "tier_data": [
+    6,
+    51,
+    174,
+    372
+  ],
+  "data_per_kill": [
+    1,
+    2,
+    3,
+    4
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "conditions": [
+    {
+      "modid": "born_in_chaos_v1",
+      "type": "forge:mod_loaded"
+    }
+  ],
+  "entity": "born_in_chaos_v1:lord_pumpkinhead",
+  "variants": [],
+  "name": "entity.born_in_chaos_v1.lord_pumpkinhead",
+  "name_color": "#FFA500",
+  "gui_scale": 1,
+  "gui_x_offset": 0,
+  "gui_y_offset": 0,
+  "gui_z_offset": 0,
+  "sim_cost": 8192,
+  "input": {
+    "item": "hostilenetworks:prediction_matrix"
+  },
+  "base_drop": {
+    "item": "hostilenetworks:overworld_prediction"
+  },
+  "trivia": "hostilenetworks.trivia.lord_pumpkinhead",
+  "fabricator_drops": [
+    {
+      "item": "born_in_chaos_v1:soulbane",
+      "count": 1
+    },
+    {
+      "item": "born_in_chaos_v1:pumpkin_pistol",
+      "count": 1
+    },
+    {
+      "item": "born_in_chaos_v1:magical_holiday_candy",
+      "count": 50
+    },
+    {
+      "item": "born_in_chaos_v1:lord_pumpkinheads_lamp",
+      "count": 1
+    },
+    {
+      "item": "born_in_chaos_v1:lord_pumpkinheads_hat_helmet",
+      "count": 1
+    },
+    {
+      "item": "born_in_chaos_v1:pumpkin_bullet",
+      "count": 30
+    }
+  ],
+  "tier_data": [
+    2,
+    12,
+    36,
+    77
+  ],
+  "data_per_kill": [
+    1,
+    2,
+    3,
+    4
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "conditions": [
+    {
+      "modid": "dungeonnowloading",
+      "type": "forge:mod_loaded"
+    }
+  ],
+  "entity": "dungeonnowloading:chaos_spawner",
+  "variants": [],
+  "name": "entity.dungeonnowloading.chaos_spawner",
+  "name_color": "#FFA500",
+  "gui_scale": 1,
+  "gui_x_offset": 0,
+  "gui_y_offset": 0,
+  "gui_z_offset": 0,
+  "sim_cost": 8192,
+  "input": {
+    "item": "hostilenetworks:prediction_matrix"
+  },
+  "base_drop": {
+    "item": "hostilenetworks:overworld_prediction"
+  },
+  "trivia": "hostilenetworks.trivia.chaos_spawner",
+  "fabricator_drops": [
+    {
+      "item": "minecraft:diamond",
+      "count": 8
+    },
+    {
+      "item": "dungeonnowloading:great_experience_bottle",
+      "count": 5
+    },
+    {
+      "item": "dungeonnowloading:spawner_fragment",
+      "count": 8
+    },
+    {
+      "item": "dungeonnowloading:spawner_frame",
+      "count": 4
+    },
+    {
+      "item": "dungeonnowloading:spawner_blade",
+      "count": 2
+    },
+    {
+      "item": "dungeonnowloading:chaotic_hexahedron",
+      "count": 1
+    }
+  ],
+  "tier_data": [
+    2,
+    12,
+    36,
+    77
+  ],
+  "data_per_kill": [
+    1,
+    2,
+    3,
+    4
+  ]
+}

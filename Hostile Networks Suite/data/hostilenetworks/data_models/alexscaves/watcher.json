@@ -1,0 +1,46 @@
+{
+  "conditions": [
+    {
+      "modid": "alexscaves",
+      "type": "forge:mod_loaded"
+    }
+  ],
+  "entity": "alexscaves:watcher",
+  "variants": [],
+  "name": "entity.alexscaves.watcher",
+  "name_color": "#4EC513",
+  "gui_scale": 1,
+  "gui_x_offset": 0,
+  "gui_y_offset": 0,
+  "gui_z_offset": 0,
+  "sim_cost": 512,
+  "input": {
+    "item": "hostilenetworks:prediction_matrix"
+  },
+  "base_drop": {
+    "item": "hostilenetworks:overworld_prediction"
+  },
+  "trivia": "hostilenetworks.trivia.watcher",
+  "fabricator_drops": [
+    {
+      "item": "alexscaves:occult_gem",
+      "count": 1
+    },
+    {
+      "item": "alexscaves:dark_tatters",
+      "count": 2
+    }
+  ],
+  "tier_data": [
+    6,
+    51,
+    174,
+    372
+  ],
+  "data_per_kill": [
+    1,
+    2,
+    3,
+    4
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "conditions": [
+    {
+      "modid": "call_of_yucutan",
+      "type": "forge:mod_loaded"
+    }
+  ],
+  "entity": "call_of_yucutan:ah_puch",
+  "variants": [],
+  "name": "entity.call_of_yucutan.ah_puch",
+  "name_color": "#FFA500",
+  "gui_scale": 1,
+  "gui_x_offset": 0,
+  "gui_y_offset": 0,
+  "gui_z_offset": 0,
+  "sim_cost": 8192,
+  "input": {
+    "item": "hostilenetworks:prediction_matrix"
+  },
+  "base_drop": {
+    "item": "hostilenetworks:overworld_prediction"
+  },
+  "trivia": "hostilenetworks.trivia.ah_puch",
+  "fabricator_drops": [
+    {
+      "item": "call_of_yucutan:fragment_of_death",
+      "count": 1
+    },
+    {
+      "item": "call_of_yucutan:elder_bone",
+      "count": 4
+    }
+  ],
+  "tier_data": [
+    2,
+    12,
+    36,
+    77
+  ],
+  "data_per_kill": [
+    1,
+    2,
+    3,
+    4
+  ]
+}
