@@ -1,10 +1,4 @@
 {
-  "conditions": [
-    {
-      "modid": "minecraft",
-      "type": "forge:mod_loaded"
-    }
-  ],
   "entity": "minecraft:fox",
   "variants": [],
   "name": "entity.minecraft.fox",
@@ -23,20 +17,11 @@
   "trivia": "hostilenetworks.trivia.fox",
   "fabricator_drops": [
     {
-      "item": "minecraft:player_head{SkullOwner:Gredoon}",
+      "item": "minecraft:player_head",
+      "nbt": "{'SkullOwner': 'Gredoon'}",
       "count": 1
     }
   ],
-  "tier_data": [
-    8,
-    76,
-    256,
-    529
-  ],
-  "data_per_kill": [
-    1,
-    2,
-    3,
-    4
-  ]
+  "tier_data": [8, 76, 256, 529],
+  "data_per_kill": [1, 2, 3, 4]
 }
