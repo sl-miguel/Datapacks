@@ -1,0 +1,48 @@
+{
+  "conditions": [
+    {
+      "modid": "alexscaves",
+      "type": "forge:mod_loaded"
+    }
+  ],
+  "entity": "alexscaves:sweetish_fish",
+  "variants": [],
+  "name": "entity.alexscaves.sweetish_fish",
+  "name_color": "#DADADA",
+  "gui_scale": 1,
+  "gui_x_offset": 0,
+  "gui_y_offset": 0,
+  "gui_z_offset": 0,
+  "sim_cost": 128,
+  "input": {
+    "item": "hostilenetworks:prediction_matrix"
+  },
+  "base_drop": {
+    "item": "hostilenetworks:overworld_prediction"
+  },
+  "trivia": "hostilenetworks.trivia.sweetish_fish",
+  "fabricator_drops": [
+    {
+      "item": "alexscaves:sweetish_fish_pink",
+      "count": 1
+    },
+    {
+      "item": "alexscaves:sweetish_fish_blue",
+      "count": 1
+    },
+    {
+      "item": "alexscaves:sweetish_fish_green",
+      "count": 1
+    },
+    {
+      "item": "alexscaves:sweetish_fish_red",
+      "count": 1
+    },
+    {
+      "item": "alexscaves:sweetish_fish_yellow",
+      "count": 1
+    }
+  ],
+  "tier_data": [8, 76, 256, 529],
+  "data_per_kill": [1, 2, 3, 4]
+}

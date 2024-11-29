@@ -1,0 +1,32 @@
+{
+  "conditions": [
+    {
+      "modid": "alexscaves",
+      "type": "forge:mod_loaded"
+    }
+  ],
+  "entity": "alexscaves:gingerbread_man",
+  "variants": [],
+  "name": "entity.alexscaves.gingerbread_man",
+  "name_color": "#DADADA",
+  "gui_scale": 1,
+  "gui_x_offset": 0,
+  "gui_y_offset": 0,
+  "gui_z_offset": 0,
+  "sim_cost": 128,
+  "input": {
+    "item": "hostilenetworks:prediction_matrix"
+  },
+  "base_drop": {
+    "item": "hostilenetworks:overworld_prediction"
+  },
+  "trivia": "hostilenetworks.trivia.gingerbread_man",
+  "fabricator_drops": [
+    {
+      "item": "alexscaves:gingerbread_crumbs",
+      "count": 1
+    }
+  ],
+  "tier_data": [8, 76, 256, 529],
+  "data_per_kill": [1, 2, 3, 4]
+}
