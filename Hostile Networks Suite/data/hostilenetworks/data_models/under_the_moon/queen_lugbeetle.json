@@ -1,0 +1,36 @@
+{
+  "conditions": [
+    {
+      "modid": "under_the_moon",
+      "type": "forge:mod_loaded"
+    }
+  ],
+  "entity": "under_the_moon:queen_lugbeetle",
+  "variants": [],
+  "name": "entity.under_the_moon.queen_lugbeetle",
+  "name_color": "#800080",
+  "gui_scale": 0.65,
+  "gui_x_offset": 0,
+  "gui_y_offset": 0,
+  "gui_z_offset": 0,
+  "sim_cost": 2048,
+  "input": {
+    "item": "hostilenetworks:prediction_matrix"
+  },
+  "base_drop": {
+    "item": "hostilenetworks:overworld_prediction"
+  },
+  "trivia": "hostilenetworks.trivia.queen_lugbeetle",
+  "fabricator_drops": [
+    {
+      "item": "under_the_moon:poison_sac",
+      "count": 3
+    },
+    {
+      "item": "under_the_moon:beetle_mandible",
+      "count": 2
+    }
+  ],
+  "tier_data": [4, 30, 100, 219],
+  "data_per_kill": [1, 2, 3, 4]
+}
