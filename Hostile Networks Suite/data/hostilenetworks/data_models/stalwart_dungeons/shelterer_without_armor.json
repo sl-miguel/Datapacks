@@ -6,16 +6,14 @@
     }
   ],
   "entity": "stalwart_dungeons:shelterer_without_armor",
-  "variants": [
-    "stalwart_dungeons:shelterer"
-  ],
+  "variants": ["stalwart_dungeons:shelterer"],
   "name": "entity.stalwart_dungeons.shelterer_without_armor",
   "name_color": "#FFA500",
   "gui_scale": 1,
   "gui_x_offset": 0,
   "gui_y_offset": 0,
   "gui_z_offset": 0,
-  "sim_cost": 8192,
+  "sim_cost": 4096,
   "input": {
     "item": "hostilenetworks:prediction_matrix"
   },
@@ -29,16 +27,6 @@
       "count": 4
     }
   ],
-  "tier_data": [
-    2,
-    12,
-    36,
-    77
-  ],
-  "data_per_kill": [
-    1,
-    2,
-    3,
-    4
-  ]
+  "tier_data": [2, 12, 36, 77],
+  "data_per_kill": [1, 2, 3, 4]
 }

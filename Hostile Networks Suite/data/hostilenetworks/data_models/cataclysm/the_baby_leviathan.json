@@ -13,7 +13,7 @@
   "gui_x_offset": 0,
   "gui_y_offset": 0,
   "gui_z_offset": 0,
-  "sim_cost": 2048,
+  "sim_cost": 1024,
   "input": {
     "item": "hostilenetworks:prediction_matrix"
   },
@@ -27,16 +27,6 @@
       "count": 1
     }
   ],
-  "tier_data": [
-    4,
-    30,
-    100,
-    219
-  ],
-  "data_per_kill": [
-    1,
-    2,
-    3,
-    4
-  ]
+  "tier_data": [4, 30, 100, 219],
+  "data_per_kill": [1, 2, 3, 4]
 }

@@ -6,17 +6,14 @@
     }
   ],
   "entity": "goblins_tyranny:mini_goblin_1",
-  "variants": [
-    "mini_goblin_2",
-    "mini_goblin_3"
-  ],
+  "variants": ["mini_goblin_2", "mini_goblin_3"],
   "name": "entity.goblins_tyranny.mini_goblin_1",
   "name_color": "#808080",
   "gui_scale": 1,
   "gui_x_offset": 0,
   "gui_y_offset": 0,
   "gui_z_offset": 0,
-  "sim_cost": 128,
+  "sim_cost": 64,
   "input": {
     "item": "hostilenetworks:prediction_matrix"
   },
@@ -42,16 +39,6 @@
       "count": 1
     }
   ],
-  "tier_data": [
-    8,
-    76,
-    256,
-    529
-  ],
-  "data_per_kill": [
-    1,
-    2,
-    3,
-    4
-  ]
+  "tier_data": [8, 76, 256, 529],
+  "data_per_kill": [1, 2, 3, 4]
 }
